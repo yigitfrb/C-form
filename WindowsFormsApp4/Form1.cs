@@ -66,56 +66,6 @@ namespace WindowsFormsApp4
 
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    string userAnswer = textBox1.Text.Trim();
-        //    string correctAnswer = answers[currentQuestionIndex];
-
-        //    // Check if the answer is correct
-        //    if (string.Equals(userAnswer, correctAnswer, StringComparison.OrdinalIgnoreCase))
-        //    {
-        //        score+=10*(answers[currentQuestionIndex].Length-previousGuesses.Count());
-        //        currentQuestionIndex++;
-        //        previousGuesses.Clear();
-        //        // Move to the next question or end the game
-        //        if (currentQuestionIndex < questions.Length)
-        //        {
-        //            label3.Text = questions[currentQuestionIndex];
-        //            label2.Text = $"Score: {score}";
-        //            labelaktar();
-        //            textBox1.Text = string.Empty;
-        //        }
-        //        else
-        //        {
-        //            // Show the final score
-        //            label3.Text = "Game Over!";
-        //            label2.Text = $"Final Score: {score}";
-
-        //            textBox1.Enabled = false;
-        //            button1.Enabled = false;
-        //        }
-        //    }
-        //    else
-        //    {
-        //        score-=10;
-        //        // Move to the next question or end the game
-        //        if (currentQuestionIndex < questions.Length)
-        //        {
-        //            label3.Text = questions[currentQuestionIndex];
-        //            label2.Text = $"Score: {score}";
-        //            textBox1.Text = string.Empty;
-        //        }
-        //        else
-        //        {
-        //            // Show the final score
-        //            label3.Text = "Game Over!";
-        //            label2.Text = $"Final Score: {score}";
-
-        //            textBox1.Enabled = false;
-        //            button1.Enabled = false;
-        //        }
-        //    }
-        //}
         static string yazdir(string metin, int indis, string yenideger)
         {
             metin = metin.Remove(indis, 2);
